@@ -10,7 +10,11 @@ const page = async () => {
         'https://jsonplaceholder.typicode.com/posts/1'
     )
 
-    return <div>{JSON.stringify(data)}</div>
+    return (
+        <div>
+            <div>{JSON.stringify(data)}</div> <div>bruhhhh</div>
+        </div>
+    )
 }
 
 export default page 
